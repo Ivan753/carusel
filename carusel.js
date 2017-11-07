@@ -66,8 +66,8 @@ carusels[j] = {
 			}
 
 			this.members[i].style.position = 'absolute';
-			this.members[i].style.left = Math.cos(this.angl + (2*Math.PI / number)*i + this.angl_road) * carusels[j].radiusX /2 + carusels[j].width/2 - this.members[i].widthh/2;
-			this.members[i].style.top = Math.sin(this.angl + (2*Math.PI / number)*i + this.angl_road) * carusels[j].radiusY/2  + carusels[j].height/4;
+			this.members[i].style.left = Math.cos(this.angl + (2*Math.PI / number)*i + this.angl_road) * this.radiusX /2 + carusels[j].width/2 - this.members[i].widthh/2;
+			this.members[i].style.top = Math.sin(this.angl + (2*Math.PI / number)*i + this.angl_road) * this.radiusY/2  + carusels[j].height/4;
 			this.members[i].style.width = this.members[i].widthh*1*this.members[i].scale;
 			this.members[i].style.height = this.members[i].heightt*1*this.members[i].scale;
 			this.members[i].style.zIndex = Math.round(100*this.members[i].scale) - zindex_hepl;
