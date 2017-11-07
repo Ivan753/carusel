@@ -1,3 +1,17 @@
+/**
+* carusel JavaScript plugin
+ * 
+ *
+ * developed by Ivan Bugaev
+ * mailto: ivan-753s@mail.ru
+ *
+ * discription  https://github.com/Ivan753/carusel
+*/
+
+/*
+ * There is using tho global variables: 'carusels' AND 'carusels_timersID'
+*/
+
 (function(){
 
 try{
