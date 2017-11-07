@@ -1,0 +1,38 @@
+<style>
+.one{
+width: 80px;
+height: 100px;
+border: 1px solid #000;
+background-color: #fff;
+}
+.one1{
+width: 40px;
+height: 60px;
+border: 1px solid #000;
+background-color: #fff;
+}
+</style>
+
+<div class = "CARUSEL_AUTO" style="width:625px; height: 300px; border: 1px solid #000; position: relative">
+
+	<div class = "one"> 1 </div>
+	<div class = "one"> 2 </div>
+	<div class = "one"> 3 </div>
+	<div class = "one"> 4 </div>
+	<div class = "one"> 5 </div>
+	<div class = "one"> 6 </div>
+	<div class = "one"> 7 </div>
+	<div class = "one"> 8 </div>
+	<div class = "one"> 9 </div>
+	<div class = "one"> 10 </div>
+
+</div>
+
+<div onclick = "carusels[0].carusels_right()">Right</div>
+<div onclick = "carusels[0].carusels_left()">Left</div>
+<div onclick = "carusels[0].carusels_nonstop('right')">Nonstop</div>
+<div onclick = "carusels[0].carusels_stop()">Stop</div>
+
+
+
+<script src = "carusel.js"></script>
