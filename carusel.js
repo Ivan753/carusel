@@ -46,7 +46,7 @@ carusels[j] = {
 	angl_road: 0,
 	members: [],
 
-	drow: (function(){
+	draw: (function(){
 		var opcity_hepl;
 
 		for(let i = 0; i < number; i++){
@@ -186,7 +186,7 @@ delete members;
 carusels_timersID = []; //---------------------------
 
 for(let j = 0; j < docs.length; j++){
-	carusels_timersID[j] = setInterval('carusels['+j+'].drow()', 30);
+	carusels_timersID[j] = setInterval('carusels['+j+'].draw()', 30);
 }
 
 
