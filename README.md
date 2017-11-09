@@ -16,7 +16,7 @@
 <li>angl: начальный угол;</li>
 <li>angl_road: "добавочный" угол;</li>
 <li>members: ссылки на все элементы "карусели";</li>
-<li>drow: метод, рассчитывающий положение элементов;</li>
+<li>draw: метод, рассчитывающий положение элементов;</li>
 <li>change: логическая переменная, отвечающая за разрешение изменения положения элементов;</li>
 <li>counter_start: начальное положение счетчика;</li>
 <li>counter_end: конечное положение счетчика;</li>
@@ -49,7 +49,7 @@ In the <i> carusels[n] </i> object, where n is the number of the next "carousel"
 <li> angl: starting angle; </li>
 <li> angl_road: "extra" angle; </li>
 <li> members: links to all elements of the carousel;</li>
-<li> drow: A method that calculates the position of elements;</li>
+<li> draw: A method that calculates the position of elements;</li>
 <li> change: the logical variable responsible for allowing the position of the elements to change; </li>
 <li> counter_start: the initial position of the counter; </li>
 <li> counter_end: the end position of the counter; </li>
